@@ -1,0 +1,90 @@
+.MarkdownEditor {
+  border-radius: 5px;
+  border: .5px solid #30363d;
+  width: 100%;
+}
+
+.MarkdownEditor-selection-header {
+  background: #161b22;
+}
+
+.MarkdownEditor-button {
+  background: none;
+  outline: none;
+  cursor: pointer;
+  color: inherit;
+  padding: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: .5px solid #30363d;
+  color: #848d97;
+}
+
+.MarkdownEditor-button:hover {
+  color: #e6edf3;
+  transition: .5s;
+}
+
+.MarkdownEditor-button-selected {
+  background: #0d1117;
+  border-top: .5px solid #30363d;
+  border-right: .5px solid #30363d;
+  border-bottom: none;
+}
+
+.MarkdownEditor-write-preview-area {
+  padding: 8px;
+}
+
+.MarkdownEditor-Textarea {
+  font-family: "Source Code Pro", 'Courier New', Courier, monospace;
+
+  display: block;
+  width: 100%;
+  padding: 8px;
+  line-height: 1.5;
+  resize: vertical;
+  background: #0d1117;
+  color: #e6edf3;
+  border-radius: 5px;
+  border: .5px solid #30363d;
+  outline: none;
+  font-size: 0.875rem; 
+}
+
+.MarkdownEditor-Textarea:focus {
+  border: 2px solid #1f6feb;
+}
+
+.MarkdownEditor-markdown-preview {
+  display: block;
+  width: 100%;
+  padding: 10px 9px;
+  line-height: 1.5;
+  background: #0d1117;
+  color: #e6edf3;
+  font-size: 0.875rem; 
+}
+
+.MarkdownEditor code {
+  font-family: "Source Code Pro", 'Courier New', Courier, monospace;
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  white-space: break-spaces;
+  background: #6e768166;
+  border-radius: 6px;
+}
+
+.MarkdownEditor ul {
+  margin-left: 12px;
+  list-style: "- ";
+}
+
+.MarkdownEditor-markdown-suported {
+  padding: 12px 12px 4px;
+  font-size: .9rem;
+}

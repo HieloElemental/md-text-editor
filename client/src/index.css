@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Source+Code+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Comic Neue", Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background-color: #0d1117;
+  color: #e6edf3;
+}
+
+a {
+  color: #4493f8;
+}

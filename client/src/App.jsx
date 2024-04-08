@@ -1,13 +1,11 @@
 import './App.css'
-import TipTap from "./components/TipTap"
+import MarkdownEditor from './components/MarkdownEditor'
 
 function App() {
   return (
-    <>
-      <form>
-        <TipTap />
-      </form>
-    </>
+    <div className='App'>
+      <MarkdownEditor />
+    </div>
   )
 }
 
